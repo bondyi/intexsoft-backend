@@ -1,0 +1,24 @@
+{
+  "name": "intexsoft-backend",
+  "version": "1.0.0",
+  "description": "Modern approaches to software development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bondyi/intexsoft-backend.git"
+  },
+  "keywords": [
+    "intexsoft-project",
+    "backend",
+    "nodejs"
+  ],
+  "author": "Ilya Bondarik <bondy.i@mail.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bondyi/intexsoft-backend/issues"
+  },
+  "homepage": "https://github.com/bondyi/intexsoft-backend#readme"
+}
