@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/bondyi/intexsoft-backend/issues"
   },
-  "homepage": "https://github.com/bondyi/intexsoft-backend#readme"
+  "homepage": "https://github.com/bondyi/intexsoft-backend#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
