@@ -11,8 +11,6 @@ const login = (req, res) => {
         res.status(400).send("Email or password required");
     }
 
-    //db
-
     const accessToken = jwt.sign({}, accessTokenSecret);
     const refreshToken = jwt.sign({}, refreshTokenSecret);
 
@@ -25,8 +23,6 @@ const register = (req, res) => {
     if (!email || !password) {
         res.status(400).send("Email or password required");
     }
-
-    //db too i guess
 
     res.send({ email, password, firstName, lastName });
 }
