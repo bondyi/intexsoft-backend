@@ -1,8 +1,8 @@
 {
   "name": "intexsoft-backend",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Modern approaches to software development",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "dev": "node app.js",
     "watch": "nodemon app.js",
@@ -24,12 +24,18 @@
   },
   "homepage": "https://github.com/bondyi/intexsoft-backend#readme",
   "dependencies": {
+    "@prisma/client": "^4.6.0",
     "body-parser": "^1.20.1",
+    "celebrate": "^15.0.1",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "jsonwebtoken": "^8.5.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "prisma": "^4.6.0"
+  },
+  "prisma": {
+    "schema": "src/prisma/schema.prisma"
   }
 }
